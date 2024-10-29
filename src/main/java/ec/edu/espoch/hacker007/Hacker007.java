@@ -16,7 +16,7 @@ public class Hacker007 {
         System.out.println("Ingrese la Edad solicitada");
         int edad = e.nextInt();
         if (edad >= 0 && edad < 120) {
-            if (edad >= 0 && edad <= 12) {
+            if (edad >= 0 && edad <= 11) {
                 System.out.println("Eres un niño");
             } else if (edad >= 13 && edad <= 35) {
                 System.out.println("Eres un joven");
@@ -24,7 +24,7 @@ public class Hacker007 {
                 System.out.println("Eres un Adulto");
             }
         } else {
-            System.out.println(" Edad no existe");
+            System.out.println(" Error Edad");
         }
     }
 }
