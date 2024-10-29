@@ -13,10 +13,10 @@ public class Hacker007 {
 
     public static void main(String[] args) {
         Scanner e=new Scanner(System.in);
-        System.out.println("Ingrese la Edad");
+        System.out.println("Ingrese la Edad solicitada");
         int edad = e.nextInt();
         if (edad >= 0 && edad < 120) {
-            if (edad >= 0 && edad <= 12) {
+            if (edad >= 0 && edad <= 10) {
                 System.out.println("Eres un niño");
             } else if (edad >= 13 && edad <= 35) {
                 System.out.println("Eres un joven");
@@ -24,7 +24,7 @@ public class Hacker007 {
                 System.out.println("Eres un Adulto");
             }
         } else {
-            System.out.println("Error: Edad inválida");
+            System.out.println("Error: Edad no existe");
         }
     }
 }
