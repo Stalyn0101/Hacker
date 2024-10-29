@@ -24,7 +24,7 @@ public class Hacker007 {
                 System.out.println("Eres un Adulto");
             }
         } else {
-            System.out.println("Error: Edad no existe");
+            System.out.println(" Edad no existe");
         }
     }
 }
